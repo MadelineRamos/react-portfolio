@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Lindsey Martin's Portfolio | {currentTab} </title>
+        <title>Madeline Ramos's Portfolio | {currentTab} </title>
       </Helmet>
       <Header currentTab={currentTab} handleTabChange={handleTabChange}></Header>
       <main>{renderTab()}</main>
