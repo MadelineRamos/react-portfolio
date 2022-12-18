@@ -1,9 +1,9 @@
 import React from 'react';
 import myResume from '../../assets/resume/Madeline-Ramos-Resume.pdf';
-import { BsCloudDownload } from 'react-icons/bs';
-import { MdFoundation } from 'react-icons/md';
-import { GrTechnology } from 'react-icons/gr';
-import { GrDocumentPerformance } from 'react-icons/gr';
+import { BsCloudDownload } from "react-icons/bs";
+import { MdFoundation } from "react-icons/md";
+import { GrTechnology } from "react-icons/gr";
+import { GrDocumentPerformance } from "react-icons/gr";
 
 function Resume() {
   return (
@@ -16,8 +16,11 @@ function Resume() {
           <div className='download-info'>
             <div className='download-text'>
               <a href={myResume} className='download-logo' download>
-                <BsCloudDownload />
+              <BsCloudDownload />
               </a>
+              <p>
+                Download my resume here!
+              </p>
             </div>
           </div>
         </div>
@@ -29,7 +32,7 @@ function Resume() {
           <p className='column-text'>
             <ul>
               <li className='logo'>
-                <MdFoundation />
+              <MdFoundation />
               </li>
               <li>HTML5</li>
               <li>CSS</li>
@@ -46,7 +49,7 @@ function Resume() {
           <p className='column-text'>
             <ul>
               <li className='logo'>
-                <GrTechnology />
+              <GrTechnology />
               </li>
               <li>Node.Js</li>
               <li>Jest</li>
@@ -64,7 +67,7 @@ function Resume() {
           <p className='column-text'>
             <ul>
               <li className='logo'>
-                <GrDocumentPerformance />
+              <GrDocumentPerformance />
               </li>
               <li>NoSQL</li>
               <li>Progressive Web Applications (PWA)</li>

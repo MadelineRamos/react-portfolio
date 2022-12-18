@@ -45,7 +45,7 @@ function Contact() {
 
       <div className='contact-info'>
         <div>
-          <h3>Hello {userName}</h3>
+          <h3>Hello! {userName}</h3>
           <p>Want to get in touch?</p>
           <address>
             Wake Forest, NC <br />
