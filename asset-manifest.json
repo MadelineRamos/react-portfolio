@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.1406cfca.css",
+    "main.js": "/my-react-portfolio/static/js/main.c169e24e.js",
+    "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/lights.jpg": "/my-react-portfolio/static/media/lights.0747b6447ffa169a8d3f.jpg",
+    "static/media/bohde-marketplace.png": "/my-react-portfolio/static/media/bohde-marketplace.436789ead8e159b9f6f2.png",
+    "static/media/headshot2.png": "/my-react-portfolio/static/media/headshot2.a9ea8459e30407e91d9b.png",
+    "static/media/weather-dashboard.png": "/my-react-portfolio/static/media/weather-dashboard.37276a1ae5963a254a41.png",
+    "static/media/Madeline-Ramos-Resume.pdf": "/my-react-portfolio/static/media/Madeline-Ramos-Resume.47dc0495824e4f7564d7.pdf",
+    "static/media/coding-quiz.png": "/my-react-portfolio/static/media/coding-quiz.5531fe160f8ef70fcc4b.png",
+    "static/media/note-taker.png": "/my-react-portfolio/static/media/note-taker.f987905bc8d60ef18eae.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.1406cfca.css.map": "/my-react-portfolio/static/css/main.1406cfca.css.map",
+    "main.c169e24e.js.map": "/my-react-portfolio/static/js/main.c169e24e.js.map",
+    "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1406cfca.css",
+    "static/js/main.c169e24e.js"
+  ]
+}
