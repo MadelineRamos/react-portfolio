@@ -21,14 +21,15 @@ function Portfolio() {
                   src={bohdeMarketplace}
                   className='my-2'
                   style={{ width: '100%' }}
-                  alt='Work-Day-Scheduler-Daily-Planner'
+                  alt='Bohde-Marketplace-Application'
                 />
               </a>
             </div>
             <div className='job-text'>
               <h4>Bohde Marketplace</h4>
               <p>
-                Add text here
+              This application will be a marketplace where all users can buy and sell items. When a user creates an account, a certain amount of fake money will be added to their profile which they will be able to use to purchase items and add to their digital collection.
+              Users will also be able to add items to the marketplace that other users will be able to purchase.
               </p>
             </div>
           </div>
@@ -43,14 +44,15 @@ function Portfolio() {
                   src={codingQuiz}
                   className='my-2'
                   style={{ width: '100%' }}
-                  alt='Password-Generator-Automaton'
+                  alt='Coding-Quiz-Application'
                 />
               </a>
             </div>
             <div className='job-text'>
               <h4>Coding Quiz</h4>
               <p>
-                Add text here
+              This application is a coding quiz that give the user a series of questions that have to be completed within 75 seconds. When the user starts the quiz the timer starts to count down from 75. If a question is answered incorrectly, 10 seconds will be taken off the timer. The quiz will end when the user either runs out of time or completes all 5 questions.
+              Once the quiz is over, the user will be asked to enter their initials to save the score. Once the "Submit" button is clicked it will show other initials and scores if the quiz was taken more than once and scores were saved. The user also has to option to clear any scores that have been saved and start from scratch.
               </p>
             </div>
           </div>
@@ -65,14 +67,14 @@ function Portfolio() {
                   src={noteTaker}
                   className='my-2'
                   style={{ width: '100%' }}
-                  alt='Note_Taker'
+                  alt='Note-Taker-Application'
                 />
               </a>
             </div>
             <div className='job-text'>
               <h4>Note Taker</h4>
               <p>
-                Add text here
+              This application is used to create notes that can be saved and deleted. This is done by using Express.js back end that will save and retrieve data from a JSON file.
               </p>
             </div>
           </div>
@@ -87,14 +89,15 @@ function Portfolio() {
                   src={weatherDashboard}
                   className='my-2'
                   style={{ width: '100%' }}
-                  alt='Weather_Dashboard'
+                  alt='Weather-Dashboard-Application'
                 />
               </a>
             </div>
             <div className='job-text'>
               <h4>Weather Dashboard</h4>
               <p>
-                Add text here
+              This application is a weather dashboard. It works when a user inputs a city in which they would like to see todays weather as well as a 5 day forecast. Once the user hits the search button, that days weather is displayed as well as a 5 day forecast of the upcoming days.
+              After the user searches a city, that city is then added to a list below the search button. This will house any city's that the user searches so they have a quick and easy access to previous city searches.
               </p>
             </div>
           </div>

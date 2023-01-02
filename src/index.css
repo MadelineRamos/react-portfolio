@@ -46,25 +46,24 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../src/assets/cover-image/coverphoto.jpg");
+  background-image: url("../src/assets/cover-image/lights.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
-
 }
 
 header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #000000;
+  color: #ffffff;
 }
 
 header a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 header nav {
@@ -93,15 +92,15 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: #000000;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
   border-radius: 10px;
   text-shadow: none;
 }
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../src/assets/cover-image/coverphoto.jpg");
+  background-image: url("../src/assets/cover-image/lights.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -125,7 +124,7 @@ header nav ul li a:hover {
 
 .hero-cta h3 {
   font-size: 45px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 /* hero-cta end */
 
@@ -189,6 +188,11 @@ header nav ul li a:hover {
   padding-right: 10%;
 }
 
+.contact-form button:hover {
+  color: #F2E3D5;
+  background: #51a8da;
+}
+
 .contact-form input, .contact-form textarea {
   border: 1px solid #000000;
   display: block;
@@ -199,12 +203,16 @@ header nav ul li a:hover {
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #ffffff;
 }
 
 .contact-form input:focus, .contact-form textarea:focus {
   background-color: rgb(255, 255, 255);
   outline: none;
+}
+
+.contact-form label {
+  color: #000000;
 }
 
 .contact-form button {
@@ -216,6 +224,7 @@ header nav ul li a:hover {
   padding: 15px 0;
   font-size: 20px;
   border-radius: 10px;
+  padding-bottom: 15px;
 }
 
 .contact-info>* {
@@ -241,6 +250,7 @@ header nav ul li a:hover {
   line-height: 1.5;
   font-size: 25px;
   font-style: normal;
+  color: #000000;
 }
 
 #contact-list {
@@ -256,7 +266,7 @@ header nav ul li a:hover {
 }
 
 .contact-info a:hover {
-  color: #ffffff;
+  color: #51a8da;
   transition: .5s ease;
 }
 /*end "Contact me" styles*/
@@ -274,11 +284,11 @@ header nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
 }
 
 .job:nth-child(even) {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
 }
 
 .job:last-child {
@@ -288,7 +298,7 @@ header nav ul li a:hover {
 .job-text h4 {
   font-size: 26px;
   line-height: 1.5;
-  color: #ffffff;
+  color: #000000;
 }
 
 .job-info {
@@ -327,7 +337,7 @@ header nav ul li a:hover {
 }
 
 .job-img img:hover {
-  border: 5px solid #000000;
+  border: 5px solid #ffffff;
   transform: scale(1.1);
 }
 
@@ -383,7 +393,7 @@ header nav ul li a:hover {
 .article {
   margin: 10px;
   margin-bottom: 1em;
-  background-color: #f7c7eb;
+  background-color: #51a8da;
 }
 
 .resume-body img {
@@ -406,7 +416,7 @@ header nav ul li a:hover {
 }
 
 .download-logo:hover {
-  color: #f7c7eb;
+  color: #ffffff;
   opacity: 0.5;
   transition: .5s ease;
 }
@@ -438,7 +448,7 @@ header nav ul li a:hover {
 
 /* start styles to <footer> */
 footer {
-  background: #f7c7eb;
+  background: #ffffff;
   font-weight: bold;
   width: 100%;
   height: 80px;
@@ -467,7 +477,7 @@ footer div {
 }
 
 footer a {
-  color: #f7c7eb;
+  color: #ffffff;
 }
 
 footer a:hover {
@@ -484,7 +494,7 @@ footer a:hover {
 }
 
 .logo:hover {
-  color: #000000;
+  color: #51a8da;
   opacity: 0.5;
   transition: .5s ease;
 }
@@ -494,7 +504,7 @@ footer a:hover {
 /* extra titles stylings */
 .section-title {
   font-size: 48px;
-  color: #f7c7eb;
+  color: #000000;
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
@@ -507,7 +517,7 @@ footer a:hover {
 }
 
 .secondary-border {
-  border-color: #ffffff;
+  border-color: #000000;
 }
 
 label {

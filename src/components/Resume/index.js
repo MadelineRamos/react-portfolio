@@ -1,9 +1,6 @@
 import React from 'react';
 import myResume from '../../assets/resume/Madeline-Ramos-Resume.pdf';
 import { BsCloudDownload } from "react-icons/bs";
-import { MdFoundation } from "react-icons/md";
-import { GrTechnology } from "react-icons/gr";
-import { GrDocumentPerformance } from "react-icons/gr";
 
 function Resume() {
   return (
@@ -28,11 +25,10 @@ function Resume() {
 
       <section id='home-page-body' className='resume-body'>
         <div className='article column1'>
-          <p className='column-title'>Font-End Tech</p>
+          <p className='column-title'>Font-End</p>
           <p className='column-text'>
             <ul>
               <li className='logo'>
-              <MdFoundation />
               </li>
               <li>HTML5</li>
               <li>CSS</li>
@@ -45,32 +41,30 @@ function Resume() {
         </div>
 
         <div className='article column2'>
-          <p className='column-title'>Back-End Tech</p>
+          <p className='column-title'>Back-End</p>
           <p className='column-text'>
             <ul>
               <li className='logo'>
-              <GrTechnology />
               </li>
               <li>Node.Js</li>
               <li>Jest</li>
               <li>Express.js</li>
               <li>MySQL</li>
               <li>Sequelize</li>
-              <li>Object-Relational Mapping(ORM)</li>
-              <li>Model-View-Controller (MVC)</li>
+              <li>ORM</li>
+              <li>MVC</li>
             </ul>
           </p>
         </div>
 
         <div className='article column3'>
-          <p className='column-title'>Performance Tech</p>
+          <p className='column-title'>Performance</p>
           <p className='column-text'>
             <ul>
               <li className='logo'>
-              <GrDocumentPerformance />
               </li>
               <li>NoSQL</li>
-              <li>Progressive Web Applications (PWA)</li>
+              <li>PWA</li>
               <li>MongoDB</li>
               <li>Mongoose</li>
               <li>GraphQL</li>
