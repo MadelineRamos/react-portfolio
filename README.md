@@ -6,4 +6,4 @@ Being a web developer means being part of a community. You’ll need a place to 
 
 
 ## Deployed Link:
-https://madelineramos.github.io/my-react-portfolio/
+https://madelineramos.github.io/react-portfolio/
