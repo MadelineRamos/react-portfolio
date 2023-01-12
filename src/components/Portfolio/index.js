@@ -3,6 +3,7 @@ import bohdeMarketplace from '../../assets/project-images/bohde-marketplace.png'
 import codingQuiz from '../../assets/project-images/coding-quiz.png';
 import noteTaker from '../../assets/project-images/note-taker.png';
 import weatherDashboard from '../../assets/project-images/weather-dashboard.png';
+import monied from '../../assets/project-images/monied.png';
 
 function Portfolio() {
   return (
@@ -10,6 +11,29 @@ function Portfolio() {
       <section id='work' className='jobs'>
         <div className='flex-row'>
           <h2 className='section-title secondary-border'>Work</h2>
+        </div>
+
+        <div className='job'>
+          <div className='job-info'>
+            <div className='job-img'>
+              <a href='https://aqueous-scrubland-12058.herokuapp.com/ '>
+                {' '}
+                <img
+                  src={monied}
+                  className='my-2'
+                  style={{ width: '100%' }}
+                  alt='Monied'
+                />
+              </a>
+            </div>
+            <div className='job-text'>
+              <h4>Monied</h4>
+              <p>
+              Monied is a fundraising platform for nonprofit organizations. The goal is to help ambitious ideas be brought to life. Monied will allow users to create projects with donation goals, donate to projects, and keep track of their donations.
+
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className='job'>
